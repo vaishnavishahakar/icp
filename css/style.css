@@ -102,7 +102,84 @@
     letter-spacing: 1px;
 }
 
+/* contact-page */
+#contact{
+    padding: 20px 30px;
+}
 
+#contact .contact-row{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+#contact .sub-heading{
+    margin-left: 50px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+#contact .contact-row .contact-left{
+    flex-basis: 50%;
+    min-width: 100%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 4px;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+#contact .contact-row .contact-left .icon-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#contact .contact-row .contact-left .icon-box .icon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #153448;
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    color: #153448;
+    transition: 0.5s;
+}
+
+#contact .contact-row .contact-msg input,
+#contact .contact-row .contact-msg textarea{
+    display: block;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #525252;
+    padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    outline: none;
+    resize: none;
+    transition: 0.5s;
+}
+
+#contact .contact-row .contact-msg input:focus,
+#contact .contact-row .contact-msg textarea:focus{
+    border: 2px solid #153448;
+}
+
+#contact .contact-row .contact-msg input[type=submit]{
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#contact .contact-row .contact-msg input[type=submit]:hover{
+    background-color: #153448;
+    color: #f7f7f7;
+    border: #153448;
+}
 
 
 /* media-query */
