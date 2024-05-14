@@ -85,6 +85,17 @@
     }
 }
 
+/* main-content */
+.content-items img{
+    width: 70%;
+    margin-top: 30px;
+}
+.content-items p{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
  /* Normal Devices  */
 @media screen and (min-width: 601px) and (max-width: 768px){
     .sidebar{
