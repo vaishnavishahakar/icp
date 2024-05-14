@@ -102,6 +102,25 @@
     letter-spacing: 1px;
 }
 
+/* drinks-page */
+.drink-item{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.drink-item .drink-img{
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.drink-item p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
 /* contact-page */
 #contact{
     padding: 20px 30px;
