@@ -8,16 +8,16 @@
 }
 
 .container{
-    background-color: #DFD0B8;
+    background-color: #ECF2FF;
     display: flex;
     min-height: 100vh;
 }
 .sidebar{
-    background-color: #153448;
+    background-color: #D3CEDF;
     width: 250px;
 }
 .content{
-    background-color: #DFD0B8;
+    background-color: #ECF2FF;
     width: 100%;
     text-align: center;
     margin-top: 20px;
@@ -26,6 +26,7 @@
 /* sidebar-items */
 .menu-item{
     background-color: #fff;
+    width: 180px;
     margin: 10px;
     border-radius: 5px;
     display: flex;
@@ -38,10 +39,10 @@
     color: black;
 }
 .menu-item:hover{
-    background-color: #e1e9ec;
+    background-color: #F6F1F1;
 }
 .active-menu{
-    background-color: #e1e9ec;
+    background-color: #F6F1F1;
 }
 .menu-icon{
     height: 20px;
@@ -93,6 +94,7 @@
     width: 300px;
     margin-top: 30px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .menu-item-food p{
     margin-bottom: 30px;
@@ -111,6 +113,7 @@
     width: 300px;
     margin-top: 30px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .drink-item p{
     margin-bottom: 30px;
