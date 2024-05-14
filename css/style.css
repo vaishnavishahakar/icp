@@ -57,21 +57,21 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #153448;
+    background-color: #D3CEDF;
     display: none;
 }
 .bottom-menu-icon{
-    background-color: #DFD0B8;
+    background-color: #ECF2FF;
     margin: 5px;
     height: 25px;
     padding: 5px;
     border-radius: 5px;
 }
 .bottom-menu-icon:hover{
-    background-color: #e1e9ec;
+    background-color: #F6F1F1;
 }
 .bottom-menu-icon-active{
-    background-color: #e1e9ec;
+    background-color: #F6F1F1;
 }
 
 /* main-content */
