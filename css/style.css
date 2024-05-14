@@ -73,6 +73,38 @@
     background-color: #e1e9ec;
 }
 
+/* main-content */
+.content-items img{
+    width: 70%;
+    margin-top: 30px;
+}
+.content-items p{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* menu-page */
+.menu-item-food{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.menu-item-food .food-img{
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.menu-item-food p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+
 /* media-query */
 /* Small Devices  */
 @media screen and (max-width: 600px){
@@ -83,17 +115,6 @@
         display: flex;
         justify-content: space-around;
     }
-}
-
-/* main-content */
-.content-items img{
-    width: 70%;
-    margin-top: 30px;
-}
-.content-items p{
-    text-align: center;
-    font-size: 15px;
-    
 }
 
  /* Normal Devices  */
